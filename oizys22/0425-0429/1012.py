@@ -3,6 +3,7 @@
 dx = [0, 0, -1, 1]
 dy = [1, -1, 0, 0]
 
+
 def isMap(x, y):
     if 0 <= x <= N-1 and 0 <= y <= M-1:
         if mat[x][y] == 1:
